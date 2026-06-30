@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Career Goals</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Career Goals</h1>
+      <nav>
+        <a href="resume.html">Resume</a>
+        <a href="cover-letter.html">Cover Letter</a>
+        <a href="career-goals.html">Career Goals</a>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Future Career Goals</h2>
+
+        <p>
+          I want to become a skilled software developer who creates useful
+          applications and continues learning new technologies.
+        </p>
+
+        <img src="assets/profile.jpg" alt="Professional portfolio image" />
+
+        <h3>Audio Introduction</h3>
+        <audio controls>
+          <source src="assets/intro.wav" type="audio/wav" />
+        </audio>
+
+        <h3>Career Video</h3>
+        <video controls width="400">
+          <source src="assets/video.mp4" type="video/mp4" />
+        </video>
+
+        <h3>Contact Form</h3>
+
+        <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+          <label>First Name</label>
+          <input name="firstName" id="firstName" required />
+
+          <label>Last Name</label>
+          <input name="lastName" id="lastName" required />
+
+          <label>Company Name</label>
+          <input name="companyName" id="companyName" />
+
+          <label>Email Address</label>
+          <input type="email" name="email" id="email" />
+
+          <label>Phone Number</label>
+          <input type="tel" name="phone" id="phone" />
+
+          <textarea name="message" id="message">Message</textarea>
+
+          <p>Best contact time:</p>
+          <label><input type="radio" name="time" value="a.m." />a.m.</label>
+          <label><input type="radio" name="time" value="p.m." />p.m.</label>
+          <label
+            ><input type="radio" name="time" value="anytime" />anytime</label
+          >
+
+          <select name="contactMethod">
+            <option>phone</option>
+            <option>email</option>
+            <option>text</option>
+          </select>
+
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>Career Goals Portfolio</footer>
+  </body>
+</html>
